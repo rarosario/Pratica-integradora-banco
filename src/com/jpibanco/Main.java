@@ -33,17 +33,17 @@ public class Main {
                      break;
              }
 
-             if (retorno==false){
+             if (retorno == false) {
                  System.out.println("Você não pode fazer essa transação!");
-             }else{
+             } else {
                  System.out.println("Transação realizada com sucesso!");
              }
 
-             Scanner saidaEntrada  = new Scanner(System.in);
+             Scanner saidaEntrada = new Scanner(System.in);
              System.out.println("Você deseja sair? Digite (s) para sair");
              sair = saidaEntrada.next();
 
-         }while(sair == "n");
+         } while (sair.equals("n"));
 
     }
 }
